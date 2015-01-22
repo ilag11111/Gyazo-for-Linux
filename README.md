@@ -1,3 +1,9 @@
+### About this fork.
+
+This fork replaces the method of grabbing the screen to one which works better in my system.  This remains a non-ideal solution, but it actually works on my system at least.
+
+# Below this is the original readme of Gyazo for Linux.
+
 # Gyazo for Linux
 
 http://gyazo.com/
