@@ -21,7 +21,7 @@ imagefile = ARGV[0]
 if imagefile && File.exist?(imagefile) then
   system "convert '#{imagefile}' '#{tmpfile}'"
 else
-  system "scrot -s '#{tmpfile}'"
+  system "import '#{tmpfile}'"
 end
 
 if !File.exist?(tmpfile) then
