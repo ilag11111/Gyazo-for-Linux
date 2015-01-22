@@ -21,7 +21,7 @@ imagefile = ARGV[0]
 if imagefile && File.exist?(imagefile) then
   system "convert '#{imagefile}' '#{tmpfile}'"
 else
-  system "import '#{tmpfile}'"
+  system "gnome-screenshot -af '#{tmpfile}'"
 end
 
 if !File.exist?(tmpfile) then
